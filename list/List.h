@@ -35,6 +35,7 @@ struct List {
 	Element* head;
 	/* A cache of tail data */
 	Element* tail;
+	/* TODO mutex */
 
 	/**
 	 * Appends the specified element to the end of this list.

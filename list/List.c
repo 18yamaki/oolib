@@ -136,7 +136,7 @@ remove(List* this, int index, bool withFree)
 		tgt = next;
 		next = next->next;
 		if (i >= index + 1) {
-
+			/* TODO remove process */
 
 			break;
 		}
